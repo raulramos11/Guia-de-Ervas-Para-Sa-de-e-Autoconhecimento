@@ -1,0 +1,92 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+.color-alt{
+    color: #780fbe;
+    font-weight: bold
+}
+
+.cabecalho{
+    background-color: #480972;
+    height: 50px;
+    width: 100vw;
+    position: relative;
+}
+
+.cabecalho p {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.int-titulo{
+    width: 850px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.int-titulo p {
+    color: white;
+
+    font-size: 20px;
+}
+
+.video-int{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+
+    height: 300px;
+
+}
+
+main h1{
+    text-align: center;
+    width: 1000px;
+    color: #ffffff;
+
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.compra-bot{
+    position: absolute;
+    top: 90%;
+    left: 38%;
+    transform: translate(-80%);
+
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #480972;
+    border: 0px;
+    color: #ffffff;
+    transform: scale(1);
+    transition: 0.4s all ease;
+}
+
+.compra-bot:hover{
+    transform: scale(1.1);
+    transition: 0.4s all ease;
+}
+
+.compra-bot a{
+    color: #ffffff;
+    text-decoration: none;
+}
